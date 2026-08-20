@@ -1,6 +1,7 @@
 # 경구약제 이미지 객체 검출 (Pill Object Detection)
 
 헬스케어 시나리오 기반, 알약 사진에서 **알약의 종류(클래스)와 위치(BBox)** 를 검출하는 Object Detection 프로젝트.
+
 초급 프로젝트 — **4팀 아기캥거루**
 
 - **대회**: `[AI13] 경구약제 이미지 객체 검출(Object Detection)` (Kaggle 비공개)
@@ -30,6 +31,7 @@
 | Local Validation `mAP@[0.75:0.95]` | 0.9706 (YOLO12m tune_a) |
 | 추론 결과 | 842장 / 검출 객체 2,959개 |
 | 추론 정책 | confidence 0.001 · Top-K 4 |
+- 이 repository에 있는 코드 구성은 위 점수를 그대로 구현합니다.
 
 ### 모델별 Local Validation 결과 (고정 Val 2,433장)
 
@@ -49,12 +51,14 @@
 
 | 구분 | 설명 | 용량 | 링크 |
 |---|---|---|---|
-| **통합 원본** `IntegratedDataset.tar` | 대회 원본 + AI-Hub 추가분 병합본 | 23.6 GB | [다운로드](https://drive.google.com/file/d/1gAokjRDpRa0TEEkQiILL3Spjqvbtbmii/view?usp=drivesdk) |
-| **전처리 산출물** `pill_yolo_full_v6_0_preprocessed/` | 학습에 바로 사용 가능한 최종 번들 | 11.2 GB | [열기](https://drive.google.com/drive/folders/1zz7sy24yaOHNZMChwsVpwghGRtWZVOgt) |
+| **통합 원본** `IntegratedDataset.tar` | 대회 원본 + AI-Hub 추가분 병합본 | 23.6 GB | [다운로드](https://drive.google.com/file/d/1gAokjRDpRa0TEEkQiILL3Spjqvbtbmii/view?usp=sharing) |
+| **전처리 산출물** `pill_yolo_full_v6_0_preprocessed/` | 학습에 바로 사용 가능한 최종 번들 | 11.2 GB | [열기](https://drive.google.com/drive/folders/1zz7sy24yaOHNZMChwsVpwghGRtWZVOgt?usp=sharing) |
+| **모델학습 결과물** 'reports/' | 모델 학습 가중치 폴더 |  |
+    [열기](https://drive.google.com/drive/folders/10ht2CWAAy1ZwZt8H7Lum9kzUB_TJLVzk?usp=sharing) |
 
 ### 데이터 구성
 
-대회 제공 데이터만으로는 학습량이 부족하다고 판단해 AI-Hub 경구약제 데이터를 추가 확보했습니다.
+대회 제공 데이터만으로는 학습량이 부족하다고 판단해 AI-Hub 경구약제 데이터를 추가 확보한 후 대회 제공 데이터와 추가 데이터를 합쳤습니다.
 
 | 출처 | 이미지 | 객체 | 클래스 |
 |---|---|---|---|
@@ -284,7 +288,6 @@ Drive/baby_kangaroo/baby_kangaroo_cache/IntegratedDataset.tar   # 추론용 842�
 ```
 annotation_id, image_id, category_id, bbox_x, bbox_y, bbox_w, bbox_h, score
 ```
-
 ---
 
 ### STEP 5 — 최종 제출물 `5_final_output/`

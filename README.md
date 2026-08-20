@@ -53,8 +53,6 @@
 |---|---|---|---|
 | **통합 원본** `IntegratedDataset.tar` | 대회 원본 + AI-Hub 추가분 병합본 | 23.6 GB | [다운로드](https://drive.google.com/file/d/1gAokjRDpRa0TEEkQiILL3Spjqvbtbmii/view?usp=sharing) |
 | **전처리 산출물** `pill_yolo_full_v6_0_preprocessed/` | 학습에 바로 사용 가능한 최종 번들 | 11.2 GB | [열기](https://drive.google.com/drive/folders/1zz7sy24yaOHNZMChwsVpwghGRtWZVOgt?usp=sharing) |
-| **모델학습 결과물** `reports/` | 모델 학습 가중치 폴더 | . |
-    [열기](https://drive.google.com/drive/folders/10ht2CWAAy1ZwZt8H7Lum9kzUB_TJLVzk?usp=sharing) |
 | **모델학습 결과물** `reports/` | 모델 학습 가중치 폴더 | 11.2 GB | [열기](https://drive.google.com/drive/folders/10ht2CWAAy1ZwZt8H7Lum9kzUB_TJLVzk?usp=sharing) |
 
 ### 데이터 구성

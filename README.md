@@ -313,11 +313,11 @@ Kaggle Score **0.46959**
 
 | 팀원 | 협업일지 |
 |---|---|
-| 김연준 | (링크 추가) |
-| 김연주 | (링크 추가) |
+| 김연준 | [PDF 보기](docs/journals/협업일지-4팀_김연준.pdf) |
+| 김연주 | [Notion](https://app.notion.com/p/Daily-05165de6edc58390a9d3016c2b305fba) |
 | 권유진 | (링크 추가) |
-| 박단비 | (링크 추가) |
-| 채윤휘빈센트 | (링크 추가) |
+| 박단비 | [Notion](https://app.notion.com/p/Daily-6a4c0258923182e4a87e81d6f4a45ed7) |
+| 채윤휘빈센트 | [Notion](https://app.notion.com/p/AI13-3b20734ccfb480128585ce42bdad3ead) |
 
 ---
 
